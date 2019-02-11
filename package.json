@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
+    "gh-pages": "^1.1.0",
+    "node": "^11.9.0",
+    "node.js": "0.0.0",
+    "react": "^16.8.1",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,5 +20,26 @@
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
-  }
+  },
+  "description": "For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njd1228/click-gamey.git"
+  },
+  "keywords": [
+    "click-game",
+    "clicky-game",
+    "clicky",
+    "game",
+    "node-react-express",
+    "game",
+    "click"
+  ],
+  "author": "Nicholas Donato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njd1228/click-gamey/issues"
+  },
+  "homepage": "https://github.com/njd1228/click-gamey#readme",
 }
