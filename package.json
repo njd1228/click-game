@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint": "^5.13.0",
     "gh-pages": "^1.1.0",
     "node": "^11.9.0",
     "node.js": "0.0.0",
+    "ract": "0.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
