@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "eslint": "^5.13.0",
+    "express": "^4.16.4",
     "gh-pages": "^1.1.0",
+    "json": "^9.0.6",
     "node": "^11.9.0",
     "node.js": "0.0.0",
     "ract": "0.0.1",
