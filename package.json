@@ -5,7 +5,6 @@
   "dependencies": {
     "eslint": "^5.13.0",
     "express": "^4.16.4",
-    "gh-pages": "^1.1.0",
     "json": "^9.0.6",
     "node": "^11.9.0",
     "node.js": "0.0.0",
@@ -23,7 +22,7 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.2.0"
   },
   "description": "For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.",
   "main": "app.js",
