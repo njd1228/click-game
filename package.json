@@ -1,48 +1,29 @@
 {
-  "name": "clickapp",
+  "name": "click-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://njd1228.github.io/click-game/",
   "dependencies": {
-    "eslint": "^5.13.0",
-    "express": "^4.16.4",
-    "json": "^9.0.6",
-    "node": "^11.9.0",
-    "node.js": "0.0.0",
-    "ract": "0.0.1",
-    "react": "^16.8.1",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "react-scripts test",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "description": "For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.",
-  "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/njd1228/click-gamey.git"
-  },
-  "keywords": [
-    "click-game",
-    "clicky-game",
-    "clicky",
-    "game",
-    "node-react-express",
-    "game",
-    "click"
-  ],
-  "author": "Nicholas Donato",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/njd1228/click-gamey/issues"
-  },
-  "homepage": "https://github.com/njd1228/click-gamey#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
